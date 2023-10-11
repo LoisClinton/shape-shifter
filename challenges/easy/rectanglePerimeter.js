@@ -5,8 +5,8 @@
  * @returns {number} the perimeter
  */
 
-function rectanglePerimeter (a, b) {
-  return 2 * a + b
+function rectanglePerimeter(a, b) {
+  return 2 * (a + b);
 }
 
-module.exports = rectanglePerimeter
+module.exports = rectanglePerimeter;

@@ -5,8 +5,8 @@
  * @returns {number} the area
  */
 
-function rectangleArea (a, b) {
-  a * b
+function rectangleArea(a, b) {
+  return a * b;
 }
 
-module.exports = rectangleArea
+module.exports = rectangleArea;

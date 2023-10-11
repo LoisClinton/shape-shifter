@@ -6,10 +6,10 @@
  * @returns {number} the area
  */
 
-function trapeziumArea (a, b, h) {
-  const m = a + b
-  m = m / 2
-  return m * h
+function trapeziumArea(a, b, h) {
+  let m = a + b;
+  m = m / 2;
+  return m * h;
 }
 
-module.exports = trapeziumArea
+module.exports = trapeziumArea;
